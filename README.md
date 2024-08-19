@@ -39,7 +39,7 @@ First, ensure that you have Docker installed on your machine.
 
    ```bash
     docker run -p 5173:5173 accuknox-dashboard
-   This command maps port 5173 of the container to port 5173 on your host machine. You can access the application in your web browser at [localhost](http://localhost:5173).
+This command maps port 5173 of the container to port 5173 on your host machine. You can access the application in your web browser at [localhost](http://localhost:5173).
 ## For Quick Demo
   You can view a live demo of the application here: [demo](https://accuknox-dashboard-task.vercel.app)
 ## Contact Us
