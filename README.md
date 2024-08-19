@@ -28,4 +28,4 @@ To run the application locally, follow these steps:
    ```bash
     npm run dev
 ## For Quick Demo
-  You can view a live demo of the application here: accuknox-dashboard-task.vercel.app
+  You can view a live demo of the application here: [demo](https://accuknox-dashboard-task.vercel.app)
