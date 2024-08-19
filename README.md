@@ -29,3 +29,5 @@ To run the application locally, follow these steps:
     npm run dev
 ## For Quick Demo
   You can view a live demo of the application here: [demo](https://accuknox-dashboard-task.vercel.app)
+## Contact Us
+   Contact us at [Send email](mailto:rudramanaidu99@gmail.com).
