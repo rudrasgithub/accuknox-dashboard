@@ -27,6 +27,19 @@ To run the application locally, follow these steps:
 2. **Start the Development Server:**
    ```bash
     npm run dev
+## Installation through Docker
+
+First, ensure that you have Docker installed on your machine.
+
+1. **Build the Docker Image:**
+
+   ```bash
+    docker build -t accuknox-dashboard .
+2. **Run the Docker Container:**
+
+   ```bash
+    docker run -p 5173:5173 accuknox-dashboard
+   This command maps port 5173 of the container to port 5173 on your host machine. You can access the application in your web browser at [localhost](http://localhost:5173).
 ## For Quick Demo
   You can view a live demo of the application here: [demo](https://accuknox-dashboard-task.vercel.app)
 ## Contact Us
