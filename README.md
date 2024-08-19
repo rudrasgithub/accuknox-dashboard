@@ -1,4 +1,5 @@
-# Vite + React + TypeScript + Redux Dashboard
+# Vite + React + TypeScript + Redux 
+## Accuknox Assignment for Frontend Trainee Role
 
 This project is a dashboard application built with Vite, React, TypeScript, and Redux. It includes functionalities for managing categories and widgets.
 
