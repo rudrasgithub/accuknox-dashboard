@@ -85,17 +85,23 @@ const AddWidgetModal: React.FC<AddWidgetModalProps> = ({ isOpen, onClose }) => {
                     </Button>
                 </div>
                 <p className='pl-3 mt-2'>Personalise your dashboard by adding the following widget</p>
-                <div className="flex overflow-x-auto p-3">
-                    {categories.map(category => (
-                        <Button
-                            key={category.id}
-                            className={`px-4 py-2 mr-2 rounded ${category.id === selectedCategoryId ? 'bg-blue-100' : 'hover:bg-gray-100'}`}
-                            onClick={() => handleCategoryClick(category.id)}
-                        >
-                            {category.name}
-                        </Button>
-                    ))}
-                </div>
+                {categories.length> 0 ? (
+                  <div className="flex overflow-x-auto p-3">
+                      {categories.map(category => (
+                          <Button
+                              key={category.id}
+                              className={`px-4 py-2 mr-2 rounded ${category.id === selectedCategoryId ? 'bg-blue-100' : 'hover:bg-gray-100'}`}
+                              onClick={() => handleCategoryClick(category.id)}
+                          >
+                              {category.name}
+                          </Button>
+                      ))}
+                  </div>
+                ):
+                  <div className='flex justify-center w-full pt-2'>
+                      <p className='text-xl font-semibold'>No Widgets available</p>
+                  </div>
+                }
                 <div className="flex overflow-y-auto p-6">
                     {selectedCategory && (
                         <div className="flex flex-col w-full gap-4">
